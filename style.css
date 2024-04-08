@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+}
+button {
+  cursor: pointer;
+  padding: 0;
+  background: none;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+}
+.black-button {
+  padding: 20px 0;
+  background: #030305;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.title {
+  font-size: 60px;
+  font-weight: 700;
+}
+.main-header__list {
+  display: flex;
+  gap: 115px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-header__container {
+  display: flex;
+  align-items: center;
+  gap: 244px;
+  padding: 25px 0;
+}
+.main-header {
+  border-bottom: 1px solid #e5e5e5;
+}
+.main-header__link {
+  color: #030305;
+}
+.first-screen {
+  margin-bottom: 100px;
+  padding-top: 104px;
+  padding-bottom: 154px;
+  background: url(img/background.png) no-repeat center center;
+}
+.first-screen__text {
+  margin-bottom: 40px;
+  font-size: 16px;
+  max-width: 502px;
+}
+.first-screen__title {
+  margin-bottom: 40px;
+  font-size: 80px;
+}
+.first-screen__link {
+  max-width: 334px;
+}
+.products__title {
+  margin-bottom: 40px;
+}
+.products__list{
+    display: grid;
+    grid-template-columns: repeat(3,calc((100% - 48px) / 3 ));
+    gap: 40px 24px;
+}
+.product__descriptions{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.product__title{
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.description{
+  text-align: center;
+}
+.description__image{
+  margin-bottom: 10px;
+}
+.products{
+  margin-bottom: 100px;
+}
+.reservation__title{
+  margin-bottom: 20px;
+}
+.reservation__text{
+  margin-bottom: 60px;
+  color: #5d5d5f;
+}
+.reservation__form{
+  display: flex;
+  flex-direction: column;
+  max-width: 344px;
+  gap: 15px;
+}
+.reservation__input{
+  padding: 22px 18px;
+}
+.reservation__image{
+  position: absolute;
+  bottom: 0;
+  right: -200px;
+}
+.reservation{
+  position: relative;
+  padding-bottom: 121px;
+}
+.main-footer{
+  border-top: 1px solid #e5e5e5;
+}
+.main-footer__container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
